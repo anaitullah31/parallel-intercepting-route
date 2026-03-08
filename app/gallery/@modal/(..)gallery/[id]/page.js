@@ -15,8 +15,6 @@ export default async function PhotoPage({ params }) {
         <Image
           alt={photo.name}
           src={photo.src}
-          width={700}
-          height={700}
           className="w-full object-cover aspect-square"
         />
       </div>
